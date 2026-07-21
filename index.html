@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自動食記 - いつ何を食べたかを振り返れる食事ジャーナル</title>
+    <meta name="description" content="自動食記は、アルバムの食事写真を端末内で自動検出し、いつ・何を食べたかを振り返ったり、これからの献立決めに活かせる iOS アプリです。端末内のオンデバイス処理で、データはすべて端末内に保存されます。">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="language-toggle">
+                <button id="lang-ja" class="active">日本語</button>
+                <button id="lang-en">English</button>
+            </div>
+            <img src="assets/images/app-icon.png" alt="自動食記 アプリアイコン" class="app-icon">
+            <h1>自動食記</h1>
+            <p>いつ・何を食べたかを、写真で振り返れる食事ジャーナル</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-links">
+                <a href="index.html" class="active">ホーム</a>
+                <a href="privacy-policy-ja.html">プライバシーポリシー</a>
+                <a href="terms.html">利用規約</a>
+                <a href="support.html">サポート</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <section class="content-section">
+                <h2>自動食記について</h2>
+                <p>「自動食記（じどうしょっき）」は、アルバムに溜まっていく食事写真を端末内で自動的に検出し、<strong>「いつ・何を食べたか」</strong>を写真ベースで残してくれる iOS アプリです。</p>
+                <p>「先週の水曜のランチって何食べたっけ?」と振り返るのも、「最近こればっかり食べてるから今夜は別のにしよう」と献立に迷ったときの参考にするのも、写真を撮るだけで蓄積されていく記録が後押しします。</p>
+                <p>画像認識はすべて <strong>端末内で完結</strong>します。写真や認識結果が外部サーバーに送信されることはありません。</p>
+            </section>
+
+            <section class="content-section">
+                <h2>主要機能</h2>
+                <p>下記のうち <span class="plus-badge-inline">Plus</span> マークが付いているものは Plus プラン (¥800 買い切り) で解放される機能です。それ以外はすべて無料で利用できます。</p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>食事写真を自動で検出</h3>
+                        <p>アプリ起動時または手動スキャンで、アルバムから食事が写った写真だけを自動的に検出し、食事候補として一覧化します。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>朝食 / 昼食 / 夕食 / 間食に自動分類</h3>
+                        <p>写真の撮影時刻から、朝食・昼食・夕食・間食のどれかを自動判定。各区分の時間帯は設定で自由に調整できます。手動で選び直す手間なく、食事記録が時系列で整理されます。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>サムネ付きカレンダー</h3>
+                        <p>月ごとのカレンダー上に、その日に食べたものの写真サムネイルを表示。「先週何食べたっけ?」がカレンダーをめくるだけで一目瞭然です。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>完全オンデバイス処理</h3>
+                        <p>画像認識はすべて端末内で完結。写真や認識結果がサーバーに送信されることはありません。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>お気に入り</h3>
+                        <p>よく振り返る食事にハートを付けてお気に入り登録。タイムラインやマップで「お気に入りだけ」に絞り込んで素早く見返せます。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>オートモード</h3>
+                        <p>レビュー画面を介さず、検出した食事写真をそのまま記録に自動確定。手間ゼロで食事記録が積み上がります。</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>地図で食事を振り返り</h3>
+                        <p>写真の EXIF に含まれる位置情報をもとに、「いつ・どこで・何を食べたか」を直近 7 日間まで地図上で振り返れます。Plus では全期間を表示できます。</p>
+                    </div>
+                    <div class="feature-card plus">
+                        <h3>カロリーの記録と集計 <span class="plus-badge">Plus</span></h3>
+                        <p>食事ごとにカロリーを入力できるようになり、日別サマリーで食習慣をひと目で確認できます。</p>
+                    </div>
+                    <div class="feature-card plus">
+                        <h3>スキャン範囲の拡張 <span class="plus-badge">Plus</span></h3>
+                        <p>無料プランの「過去 1 週間 / 最大 50 枚」を、「期間無制限 / 最大 200 枚」まで拡張できます。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>利用プラン</h2>
+                <p>自動食記は、アルバムからの食事写真自動検出という基本機能を無料で開放しつつ、食事をより深く振り返り、献立決めに活かすための機能群を Plus プランにまとめています。</p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>無料プラン</h3>
+                        <p>アルバムからの食事写真自動検出 (過去 1 週間・最大 50 枚)、直近 7 日間の地図表示と住所自動取得、撮影時刻からの朝食/昼食/夕食/間食の自動分類、サムネ付きカレンダー、お気に入り・タグでの絞り込み、オートモード（自動記録）、すべてオンデバイス処理。広告なし。</p>
+                    </div>
+                    <div class="feature-card plus">
+                        <h3>Plus プラン <span class="plus-badge">¥800 買い切り</span></h3>
+                        <p><strong>解放される機能:</strong> 地図の全期間表示・カロリーの記録と日別集計・スキャン範囲の拡張。</p>
+                        <ul style="margin-top:0.8rem; padding-left:1.2rem; font-size:0.95rem;">
+                            <li><strong>料金</strong>: ¥800 (税込)、一回のみの買い切り</li>
+                            <li><strong>課金</strong>: Apple StoreKit 経由。Apple ID に一度だけ課金され、自動更新はありません</li>
+                            <li><strong>引き継ぎ</strong>: 機種変更・再インストール時はアプリ内の「購入を復元」で復元できます</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>重要な情報</h2>
+                <div class="links-grid">
+                    <div class="link-card">
+                        <h3>プライバシーポリシー</h3>
+                        <p>自動食記が取り扱う情報の種類と利用目的について説明しています。</p>
+                        <a href="privacy-policy-ja.html" class="btn">プライバシーポリシーを読む</a>
+                    </div>
+                    <div class="link-card">
+                        <h3>利用規約</h3>
+                        <p>自動食記の利用条件およびアプリ内課金に関する規約です。</p>
+                        <a href="terms.html" class="btn">利用規約を読む</a>
+                    </div>
+                    <div class="link-card">
+                        <h3>サポート</h3>
+                        <p>お問い合わせ窓口とよくある質問はこちらです。</p>
+                        <a href="support.html" class="btn">サポートページを開く</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2>システム要件</h2>
+                <ul>
+                    <li>iOS 26.4 以降</li>
+                    <li>写真ライブラリへのアクセス権限</li>
+                    <li>Plus プラン (アプリ内課金) を利用する場合：Apple ID および有効な決済手段</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Shohei Moriya. All rights reserved.</p>
+            <p><a href="privacy-policy-ja.html">プライバシーポリシー</a> | <a href="terms.html">利用規約</a> | <a href="support.html">サポート</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/language-switch.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - 自動食記</title>
+    <meta name="description" content="自動食記アプリのプライバシーポリシー。端末内処理・データの取り扱い・アプリ内課金について説明しています。">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="language-toggle">
+                <button id="lang-ja" class="active">日本語</button>
+                <button id="lang-en">English</button>
+            </div>
+            <h1>プライバシーポリシー</h1>
+            <p>自動食記 iOS アプリ</p>
+        </div>
+    </header>
+
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-links">
+                <a href="index.html">ホーム</a>
+                <a href="privacy-policy-ja.html" class="active">プライバシーポリシー</a>
+                <a href="terms.html">利用規約</a>
+                <a href="support.html">サポート</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="terms-content">
+                <p><strong>制定日：2026年6月2日／最終改定日：2026年7月18日</strong></p>
+
+                <p>Shohei Moriya（以下、「当方」といいます。）は、当方が提供する iOS アプリケーション「自動食記」（以下、「本アプリ」といいます。）における、ユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー（以下、「本ポリシー」といいます。）を定めます。</p>
+
+                <h2>第1条（基本方針）</h2>
+
+                <p>本アプリは、画像認識・食事記録の保存をユーザーの端末内で完結させることを基本方針としています。ユーザーの写真、認識結果、食事記録を当方のサーバーへ送信・収集することはありません。写真に位置情報が含まれる場合、住所を自動取得するため、その座標を Apple のマップサービスへ送信することがあります。</p>
+
+                <h2>第2条（取得する情報および利用目的）</h2>
+
+                <p>本アプリは、以下の情報を取得・利用します。食事記録はユーザーの端末内に保存されます。写真の画像データや画像認識結果は外部へ送信しませんが、住所の自動取得を行う場合に限り、写真に含まれる位置情報を Apple のマップサービスへ送信します。</p>
+
+                <h3>1. 写真ライブラリへのアクセス</h3>
+                <ul>
+                    <li><strong>取得情報</strong>：アルバムに保存された写真の画像データ、撮影日時、および写真に付随する位置情報（EXIF データ）</li>
+                    <li><strong>取得方法</strong>：ユーザーが iOS の許可ダイアログで写真ライブラリへのアクセスを許可した場合に、Photos フレームワーク経由で取得します。</li>
+                    <li><strong>利用目的</strong>：
+                        <ul>
+                            <li>食事写真を自動的に検出し、食事候補を抽出するため。</li>
+                            <li>写真の撮影日時を食事記録の時刻として利用するため。</li>
+                            <li>写真に位置情報が含まれている場合、食事記録の位置として利用し、Apple のマップサービスから住所を取得するため。</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>2. 画像認識結果</h3>
+                <ul>
+                    <li><strong>取得情報</strong>：Apple Vision Framework によって生成された、写真内の食品ラベル候補とその信頼度</li>
+                    <li><strong>取得方法</strong>：端末内で画像認識を実行することにより生成します。</li>
+                    <li><strong>利用目的</strong>：ユーザーが確認・編集できる食事候補として表示するため。</li>
+                </ul>
+
+                <h3>3. ユーザーが入力した食事記録</h3>
+                <ul>
+                    <li><strong>取得情報</strong>：食品名、カロリー、食事区分、日時、位置情報（任意）、場所名（任意）、お気に入り設定</li>
+                    <li><strong>取得方法</strong>：ユーザーが本アプリの画面で入力・編集・確定した内容</li>
+                    <li><strong>利用目的</strong>：食事記録の保存および集計表示のため。</li>
+                </ul>
+
+                <h2>第3条（情報の保存場所）</h2>
+
+                <p>本アプリが取得・生成した情報は、すべてユーザーの端末内（SwiftData / iOS のローカルストレージ）に保存されます。当方はユーザーのデータにアクセスする手段を一切持ちません。</p>
+
+                <p>iOS の設定によりユーザーが iCloud バックアップを有効にしている場合、本アプリのデータは Apple のサービスを通じて Apple のサーバーにバックアップされる場合があります。この場合のデータの取扱いは Apple のプライバシーポリシーに従います。</p>
+
+                <h2>第4条（第三者への提供・外部送信）</h2>
+
+                <p>本アプリは、ユーザーの写真、画像認識結果、食事記録を当方のサーバーへ送信しません。広告 SDK、アクセス解析、クラッシュレポート等の第三者サービスも組み込んでおりません。</p>
+
+                <p>写真の位置情報から住所を自動取得する場合、座標を Apple のマップサービスへ送信します。住所の取得処理は Apple のシステムを通じて行われ、当方が位置情報を収集することはありません。Apple におけるデータの取扱いについては、Apple のプライバシーポリシーをご参照ください。</p>
+
+                <p>本アプリは、アプリ内課金機能の提供のために Apple Inc. の StoreKit を利用します。購入処理および購入状態の管理は Apple のシステムを通じて行われ、決済情報は当方ではなく Apple のシステム上で処理されます。Apple におけるデータの取扱いについては、<a href="https://www.apple.com/legal/privacy/" target="_blank">Apple のプライバシーポリシー</a>をご参照ください。</p>
+
+                <h2>第5条（アクセス権限）</h2>
+
+                <p>本アプリは、機能を実装するために必要最小限の端末権限のみを要求します。</p>
+
+                <ul>
+                    <li><strong>写真ライブラリへのアクセス</strong>（<code>NSPhotoLibraryUsageDescription</code>）：食事写真を自動でスキャンするために必要です。ユーザーが iOS の設定でいつでも許可を変更できます。</li>
+                </ul>
+
+                <p>本アプリは、位置情報サービス（GPS）の権限は要求しません。位置情報は、ユーザーが許可した写真の EXIF データに含まれている場合にのみ参照されます。</p>
+
+                <h2>第6条（データの削除）</h2>
+
+                <p>ユーザーは、本アプリ内でいつでも個別の食事記録を削除できます。すべてのデータを削除したい場合は、iOS の設定から本アプリをアンインストールしてください。アンインストールにより、本アプリが端末内に保存していたすべてのデータが削除されます。</p>
+
+                <h2>第7条（子どもの個人情報）</h2>
+
+                <p>本アプリは特定の年齢層を対象とはしていません。画像認識と食事記録の保存は端末内で行われ、当方が個人情報を収集することはありません。</p>
+
+                <h2>第8条（プライバシーポリシーの変更）</h2>
+
+                <p>当方は、必要に応じて本ポリシーを変更します。変更後のポリシーは本ウェブサイト上で掲示した時点から効力を生じるものとします。重要な変更がある場合は、本アプリのアップデート時にお知らせいたします。</p>
+
+                <h2>第9条（お問い合わせ窓口）</h2>
+
+                <p>本ポリシーまたは本アプリにおける個人情報の取扱いに関するお問い合わせは、下記の窓口までお願いいたします。</p>
+
+                <ul>
+                    <li><strong>連絡先</strong>：moriyatee@gmail.com</li>
+                </ul>
+
+                <hr>
+
+                <p><strong>以上</strong></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Shohei Moriya. All rights reserved.</p>
+            <p><a href="terms.html">利用規約</a> | <a href="index.html">ホーム</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/language-switch.js"></script>
+</body>
+</html>
